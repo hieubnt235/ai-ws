@@ -5,7 +5,7 @@ if os.getenv("LOG_FUNC", None) is None:
     pass
 
 import lightning as L
-from ds_utils.huggan_smithsonian_butterflies_subset import (
+from data.huggan_smithsonian_butterflies_subset import (
     DataModule,
     DataModuleConfig,
     DataLoaderConfig,

@@ -157,7 +157,7 @@ def test_configure_optimizers(ddpm_unet2d):
 
 def test_train():
     import lightning as L
-    from ds_utils.huggan_smithsonian_butterflies_subset import (
+    from data.huggan_smithsonian_butterflies_subset import (
         DataModule,
         DataLoaderConfig,
         DataModuleConfig,
